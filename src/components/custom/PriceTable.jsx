@@ -28,37 +28,37 @@ export default function PriceTable() {
       <TableCell className="font-medium text-white">CB.F</TableCell>
       <TableCell className="text-white">2024-02-16</TableCell>
       <TableCell className="text-white">$82.160</TableCell>
-      <TableCell>+0.2%</TableCell>
+      <TableCell className="text-green-500">+0.2%</TableCell>
     </TableRow>
     <TableRow className="text-white">
       <TableCell className="font-medium">CB.F</TableCell>
       <TableCell>2024-02-16</TableCell>
       <TableCell>$82.160</TableCell>
-      <TableCell>+0.2%</TableCell>
+      <TableCell className="text-green-500">+0.2%</TableCell>
     </TableRow>
     <TableRow className="text-white">
       <TableCell className="font-medium">CB.F</TableCell>
       <TableCell>2024-02-16</TableCell>
       <TableCell>$82.160</TableCell>
-      <TableCell>+0.2%</TableCell>
+      <TableCell className="text-green-500">+0.2%</TableCell>
     </TableRow>
     <TableRow className="text-white">
       <TableCell className="font-medium">CB.F</TableCell>
       <TableCell>2024-02-16</TableCell>
       <TableCell>$82.160</TableCell>
-      <TableCell>+0.2%</TableCell>
+      <TableCell className="text-green-500">+0.2%</TableCell>
     </TableRow>
     <TableRow className="text-white">
       <TableCell className="font-medium">CB.F</TableCell>
       <TableCell>2024-02-16</TableCell>
       <TableCell>$82.160</TableCell>
-      <TableCell>+0.2%</TableCell>
+      <TableCell className="text-green-500">+0.2%</TableCell>
     </TableRow>
     <TableRow className="text-white">
       <TableCell className="font-medium">CB.F</TableCell>
       <TableCell>2024-02-16</TableCell>
       <TableCell>$82.160</TableCell>
-      <TableCell>+0.2%</TableCell>
+      <TableCell className="text-green-500">+0.2%</TableCell>
     </TableRow>
   </TableBody>
 </Table>
