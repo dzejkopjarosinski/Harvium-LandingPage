@@ -19,11 +19,11 @@ module.exports = {
     extend: {
       width: {
         'video-lg': '1120px',
-        'video-sm': '510px'
+        'video-sm': '360px'
       },
       height: {
         'video-lg': '630px',
-        'video-sm': '285px'
+        'video-sm': '300px'
       },
       backgroundImage: (theme) => ({
         'background-primary': `linear-gradient(to bottom, #020621, #0B1757, #020621)`,

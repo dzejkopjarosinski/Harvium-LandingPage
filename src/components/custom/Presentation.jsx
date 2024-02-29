@@ -15,7 +15,7 @@ export default function Presentation() {
     </div>
 
     <div className='flex overflow-hidden mt-2 justify-center'>
-        <iframe src="https://www.youtube.com/embed/Cy3pduevRiE?si=xIryn4Q4vfI3SrqK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='rounded-lg lg:w-video-lg lg:h-video-lg sm:w-video-sm sm:h-video-sm'></iframe>
+        <iframe src="https://www.youtube.com/embed/Cy3pduevRiE?si=xIryn4Q4vfI3SrqK&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='rounded-lg lg:w-video-lg lg:h-video-lg w-video-sm h-video-sm'></iframe>
     </div>
 
 </div>

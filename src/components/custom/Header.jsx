@@ -12,7 +12,7 @@ export default function Header() {
         <button className="bg-transparent border-2 border-black text-white px-4 py-2 rounded mt-4 ml-2">Skontaktuj się z nami</button>
       </div>
     </div>
-    <div className='px-10'>
+    <div className='pl-[200px] '>
       <img className='border h-96 w-96 flex'></img>
     </div>
   </div>

@@ -4,12 +4,12 @@ import { Button } from '../ui/button'
 export default function NavBar() {
   return (
     <>
-     <nav className="flex flex-col border-b-2 border-[#9747FF] sm:flex-row justify-between h-auto sm:h-20 bg-[#080E2D]">
-      <div className="flex items-center text-white mb-4 sm:mb-0">
-    <span className="font-semibold text-xl tracking-tight pl-5 lg:pt-0 pt-4">Logo</span>
+     <nav className="flex flex-col border-b-2 border-[#302242] sm:flex-row justify-between h-auto sm:h-20 bg-[#080E2D]">
+      <div className="flex items-center justify-center  text-white mb-4 sm:mb-0">
+    <span className="font-semibold text-xl tracking-tight lg:pl-5 pl-0 lg:pt-0 pt-4">Logo</span>
     </div>
-  <div className="flex-grow flex flex-col sm:flex-row justify-between">
-    <div className="flex flex-grow lg:justify-center lg:items-center lg:ml-0 ml-5 mb-4 sm:mb-0">
+    <div className="flex-grow flex flex-col sm:flex-row items-center justify-between">
+    <div className="flex justify-center text-center flex-grow mb-4 sm:mb-0">
       <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 space-x-0 sm:space-x-4">
         <a href="Handluj" className="text-white hover:text-yellow-300">
           Handluj
