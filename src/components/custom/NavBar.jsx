@@ -10,7 +10,7 @@ export default function NavBar() {
     </div>
     <div className="flex-grow flex flex-col sm:flex-row items-center justify-between">
     <div className="flex justify-center text-center flex-grow mb-4 sm:mb-0">
-      <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 space-x-0 sm:space-x-4">
+      <div className="flex flex-col lg:pl-5 sm:flex-row space-y-2 sm:space-y-0 space-x-0 sm:space-x-4">
         <a href="Handluj" className="text-white hover:text-yellow-300">
           Handluj
         </a>
@@ -25,7 +25,7 @@ export default function NavBar() {
         </a>
       </div>
     </div>
-    <div className="flex lg:flex-row flex-col gap-2 items-center justify-center pb-5 lg:pb-0">
+    <div className="flex lg:flex-row flex-col gap-2 items-center justify-center pb-5 lg:pb-0 lg:pr-5">
       <button className="transition ease-in-out duration-200 delay-50 md:w-28 w-80 text-sm px-4 py-2 border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white">
         Logowanie
       </button>
