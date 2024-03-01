@@ -11,16 +11,16 @@ export default function NavBar() {
     <div className="flex-grow flex flex-col sm:flex-row items-center justify-between">
     <div className="flex justify-center text-center flex-grow mb-4 sm:mb-0">
       <div className="flex flex-col lg:pl-5 sm:flex-row space-y-2 sm:space-y-0 space-x-0 sm:space-x-4">
-        <a href="Harvium-LandingPage/Handluj" className="text-white hover:text-yellow-300">
+        <a href="Handluj" className="text-white hover:text-yellow-300">
           Handluj
         </a>
-        <a href="Harvium-LandingPage/Uslugi" className="text-white hover:text-yellow-300">
+        <a href="Uslugi" className="text-white hover:text-yellow-300">
           Usługi
         </a>
-        <a href="Harvium-LandingPage/About" className="text-white hover:text-yellow-300">
+        <a href="About" className="text-white hover:text-yellow-300">
           O nas
         </a>
-        <a href="Harvium-LandingPage/Contact" className="text-white hover:text-yellow-300">
+        <a href="Contact" className="text-white hover:text-yellow-300">
           Kontakt
         </a>
       </div>
