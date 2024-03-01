@@ -6,21 +6,21 @@ export default function NavBar() {
     <>
      <nav className="flex flex-col border-b-2 border-[#302242] sm:flex-row justify-between h-auto sm:h-20 bg-[#080E2D]">
       <div className="flex items-center justify-center  text-white mb-4 sm:mb-0">
-    <span className="font-semibold text-xl tracking-tight lg:pl-5 pl-0 lg:pt-0 pt-4">Logo</span>
+    <span className="font-semibold text-xl tracking-tight lg:pl-5 pl-0 lg:pt-0 pt-4"> <a href="/">Logo</a></span>
     </div>
     <div className="flex-grow flex flex-col sm:flex-row items-center justify-between">
     <div className="flex justify-center text-center flex-grow mb-4 sm:mb-0">
       <div className="flex flex-col lg:pl-5 sm:flex-row space-y-2 sm:space-y-0 space-x-0 sm:space-x-4">
-        <a href="Handluj" className="text-white hover:text-yellow-300">
+        <a href="Harvium-LandingPage/Handluj" className="text-white hover:text-yellow-300">
           Handluj
         </a>
-        <a href="Uslugi" className="text-white hover:text-yellow-300">
+        <a href="Harvium-LandingPage/Uslugi" className="text-white hover:text-yellow-300">
           Usługi
         </a>
-        <a href="O nas" className="text-white hover:text-yellow-300">
+        <a href="Harvium-LandingPage/About" className="text-white hover:text-yellow-300">
           O nas
         </a>
-        <a href="Kontakt" className="text-white hover:text-yellow-300">
+        <a href="Harvium-LandingPage/Contact" className="text-white hover:text-yellow-300">
           Kontakt
         </a>
       </div>

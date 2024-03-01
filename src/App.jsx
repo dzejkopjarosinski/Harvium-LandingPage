@@ -1,25 +1,23 @@
-import NavBar from "./components/custom/NavBar";
-import Header from "./components/custom/Header";
-import Presentation from "./components/custom/Presentation";
-import Services from "./components/custom/Services";
-import PriceTable from "./components/custom/PriceTable";
-import Footer from "./components/custom/Footer";
-import Oferta from "./components/custom/Oferta";
+import ContactUs from './components/Routes/ContactUs';
+import HomePage from './components/Routes/HomePage';
+import Handluj from './components/Routes/Handluj';
+import About from './components/Routes/About';
+import Uslugi from './components/Routes/Uslugi';
+
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
 
   return (
-    <>
-      <div>
-        <NavBar />
-        <Header />
-        <Presentation />
-        <Services />
-        <PriceTable />
-        <Oferta />
-        <Footer />
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route exact path = "Harvium-LandingPage" element={<HomePage />}></Route>
+        <Route exact path = "Harvium-LandingPage/Handluj" element={<Handluj />}></Route>
+        <Route exact path = "Harvium-LandingPage/Uslugi" element={<Uslugi />}></Route>
+        <Route exact path = "Harvium-LandingPage/About" element={<About />}></Route>
+        <Route exact path = "Harvium-LandingPage/Contact" element={<ContactUs />}></Route>
+      </Routes>
+    </Router>
   )
 }
 
