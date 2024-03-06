@@ -13,7 +13,7 @@ export default function Header() {
         </div>
       </div>
       <div className='pl-[200px] '>
-        <img className='border h-96 w-96 flex'></img>
+        <img src="src/assets/zboze.png" className='h-96 w-96 flex'></img>
       </div>
       </div>
   
