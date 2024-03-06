@@ -1,4 +1,4 @@
-import ContactUs from './components/Routes/ContactUs';
+import ContactPage from './components/Routes/ContactPage';
 import HomePage from './components/Routes/HomePage';
 import Handluj from './components/Routes/Handluj';
 import About from './components/Routes/About';
@@ -15,7 +15,7 @@ function App() {
         <Route exact path = "/Harvium-LandingPage/Handluj" element={<Handluj />}></Route>
         <Route exact path = "/Harvium-LandingPage/Uslugi" element={<Uslugi />}></Route>
         <Route exact path = "/Harvium-LandingPage/About" element={<About />}></Route>
-        <Route exact path = "/Harvium-LandingPage/Contact" element={<ContactUs />}></Route>
+        <Route exact path = "/Harvium-LandingPage/Contact" element={<ContactPage />}></Route>
       </Routes>
     </Router>
   )
