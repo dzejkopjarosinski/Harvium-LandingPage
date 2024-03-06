@@ -51,7 +51,7 @@ const ContactForm = () => {
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method="POST"
-      className="w-1/2"
+      className="w-full"
     >
       <div className="pt-0 mb-3">
         <input

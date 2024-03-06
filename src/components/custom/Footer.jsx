@@ -22,10 +22,10 @@ export default function Footer() {
 		</div>
 		<ul class="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
 			<li>
-				<a rel="noopener noreferrer" href="#">Instagram</a>
+				<a rel="noopener noreferrer" href="https://www.linkedin.com/company/harvium-sp-z-o-o/about/">Linkedin</a>
 			</li>
 			<li>
-				<a rel="noopener noreferrer" href="#">Facebook</a>
+				<a rel="noopener noreferrer" href="#">Instagram</a>
 			</li>
 			<li>
 				<a rel="noopener noreferrer" href="#">Twitter</a>

@@ -5,6 +5,7 @@ import Services from "../custom/Services";
 import PriceTable from "../custom/PriceTable";
 import Footer from "../custom/Footer";
 import Oferta from "../custom/Oferta";
+import ListaUlug from "../custom/ListaUlug";
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
         <NavBar />
         <Header />
         <Presentation />
-        <Services />
+        <ListaUlug />
         <PriceTable />
         <Oferta />
         <Footer />
