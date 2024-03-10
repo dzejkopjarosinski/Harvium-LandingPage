@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = "https://herotofu.com/start"; // TODO - update to the correct endpoint
+const FORM_ENDPOINT = "https://forms.zohopublic.eu/harvium/form/HarviumKontakt/formperma/p_g2EZSP148Jb4T5qgwQivEfD_lI-Shg7-OlvRd18wQ/htmlRecords/submit"; // TODO - update to the correct endpoint
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -56,8 +56,17 @@ const ContactForm = () => {
       <div className="pt-0 mb-3">
         <input
           type="text"
-          placeholder="Imie i Nazwisko"
-          name="name"
+          placeholder="Imie"
+          name="Name_First"
+          className="focus:outline-none focus:ring relative w-full px-2 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+          required
+        />
+      </div>
+      <div className="pt-0 mb-3">
+        <input
+          type="text"
+          placeholder="Nazwisko"
+          name="Name_Last"
           className="focus:outline-none focus:ring relative w-full px-2 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
           required
         />
@@ -66,15 +75,23 @@ const ContactForm = () => {
         <input
           type="email"
           placeholder="Email"
-          name="email"
+          name="Email"
           className="focus:outline-none focus:ring relative w-full px-2 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
           required
         />
       </div>
       <div className="pt-0 mb-3">
+        <input
+          type="text"
+          placeholder="Numer Telefonu"
+          name="PhoneNumber_countrycode"
+          className="focus:outline-none focus:ring relative w-full px-2 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+        />
+      </div>
+      <div className="pt-0 mb-3">
         <textarea
           placeholder="Twoja Wiadomość"
-          name="message"
+          name="SingleLine"
           className="focus:outline-none focus:ring relative w-full px-2 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
           required
         />

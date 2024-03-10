@@ -3,6 +3,7 @@ import HomePage from './components/Routes/HomePage';
 import Handluj from './components/Routes/Handluj';
 import About from './components/Routes/About';
 import Uslugi from './components/Routes/Uslugi';
+import TermsOfUse from './components/Routes/TermsOfUse';
 
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
@@ -16,6 +17,7 @@ function App() {
         <Route exact path = "/Harvium-LandingPage/Uslugi" element={<Uslugi />}></Route>
         <Route exact path = "/Harvium-LandingPage/About" element={<About />}></Route>
         <Route exact path = "/Harvium-LandingPage/Contact" element={<ContactPage />}></Route>
+        <Route exact path = "/Harvium-LandingPage/TermsOfUse" element={<TermsOfUse />}></Route>
       </Routes>
     </Router>
   )

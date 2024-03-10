@@ -17,6 +17,11 @@ module.exports = {
       },
     },
     extend: {
+
+      boxShadow: {
+        'golden': '2px 0px 20px 12px rgba(255, 215, 0, 0.2)'
+      },
+
       width: {
         'video-lg': '1120px',
         'video-sm': '360px'

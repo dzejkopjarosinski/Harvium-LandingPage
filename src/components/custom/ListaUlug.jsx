@@ -29,7 +29,7 @@ export default function ListaUlug() {
             <p className='text-lg font-light'>Tworzymy monitoring cen produktów rolnych i przemysłowych na rynku europejskim</p>
           </div>
           <div className='flex flex-col text-white text-center items-center w-80'>
-            <img src='src/assets/Ikonaplatforma.png' className='w-[75px] h-[75px]'></img>
+            <img src='src/assets/Ikonaszybka.png' className='w-[75px] h-[75px]'></img>
             <h2 className='text-xl font-semibold mt-1 mb-1 w-64 h-14'>Szybka i profesjonalna obsługa klienta</h2>
             <p className='text-lg font-light'>Dział Obsługi Klienta jest dostępny 24/7. Możesz się z nami skontaktować telefonicznie oraz mailowo</p>
           </div>
