@@ -7,14 +7,14 @@ export default function Footer() {
 	<div class="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
 		<div class="flex flex-row pr-3 space-x-4 sm:space-x-8">
 			<div class="flex items-center justify-center flex-shrink-0 w-[100px] h-[100px] rounded-full dark:bg-violet-400">
-				<img src='src/assets/Harvium-Logo.png'></img>
+				<img src='src/assets/Harvium-Logo.png' href="./"></img>
 			</div>
 			<ul class="flex flex-wrap items-center space-x-4 sm:space-x-8">
 				<li>
-					<a rel="noopener noreferrer" href="#">Terms of Use</a>
+					<a rel="noopener noreferrer" href="TermsOfUse">Terms of Use</a>
 				</li>
 				<li>
-					<a rel="noopener noreferrer" href="#">Privacy</a>
+					<a rel="noopener noreferrer" href="">Privacy</a>
 				</li>
 			</ul>
 		</div>

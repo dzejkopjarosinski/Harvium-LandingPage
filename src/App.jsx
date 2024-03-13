@@ -1,6 +1,5 @@
 import ContactPage from './components/Routes/ContactPage';
 import HomePage from './components/Routes/HomePage';
-import Handluj from './components/Routes/Handluj';
 import About from './components/Routes/About';
 import Uslugi from './components/Routes/Uslugi';
 import TermsOfUse from './components/Routes/TermsOfUse';
@@ -13,7 +12,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path = "/Harvium-LandingPage/" element={<HomePage />}></Route>
-        <Route exact path = "/Harvium-LandingPage/Handluj" element={<Handluj />}></Route>
+        <Route exact path = "/Harvium-LandingPage/Handluj" element={<ContactPage />}></Route>
         <Route exact path = "/Harvium-LandingPage/Uslugi" element={<Uslugi />}></Route>
         <Route exact path = "/Harvium-LandingPage/About" element={<About />}></Route>
         <Route exact path = "/Harvium-LandingPage/Contact" element={<ContactPage />}></Route>

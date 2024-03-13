@@ -6,6 +6,7 @@ import PriceTable from "../custom/PriceTable";
 import Footer from "../custom/Footer";
 import Oferta from "../custom/Oferta";
 import ListaUlug from "../custom/ListaUlug";
+import ContactUs from "../custom/ContactUs";
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
         <Presentation />
         <ListaUlug />
         <PriceTable />
-        <Oferta />
+        <ContactUs />
         <Footer />
       </div>
     </>
