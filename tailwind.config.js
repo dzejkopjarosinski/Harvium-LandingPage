@@ -17,6 +17,19 @@ module.exports = {
       },
     },
     extend: {
+
+      boxShadow: {
+        'golden': '2px 0px 20px 12px rgba(255, 215, 0, 0.2)'
+      },
+
+      width: {
+        'video-lg': '1120px',
+        'video-sm': '360px'
+      },
+      height: {
+        'video-lg': '630px',
+        'video-sm': '300px'
+      },
       backgroundImage: (theme) => ({
         'background-primary': `linear-gradient(to bottom, #020621, #0B1757, #020621)`,
       }),
@@ -61,6 +74,19 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+
+        "slidein" : {
+          from:{
+            opacity: "0",
+            transform: "translateY(-10px)",
+          },
+
+          to:{
+            opacity: "1",
+            transform: "translateY(0px)",
+          },
+        },
+
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -73,6 +99,7 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "slidein": "slidein 1s ease 300ms",
       },
     },
   },

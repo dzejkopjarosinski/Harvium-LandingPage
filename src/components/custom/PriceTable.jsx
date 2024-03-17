@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
 import {
   Table,
   TableBody,
@@ -8,9 +11,20 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-import React from 'react'
-
 export default function PriceTable() {
+
+
+  const [data, setData] = useState([]);
+
+  // Fetch data from server when component mounts
+  useEffect(() => {
+    axios.get('http://localhost:5000/data')
+      .then((response) => {
+        setData(response.data);
+      });
+  }, []);
+
+
   return (
   <div className="bg-background-primary pr-10 pl-10">
   <Table className='rounded-lg border-2 border-white mt-20'>
@@ -24,42 +38,14 @@ export default function PriceTable() {
     </TableRow>
   </TableHeader>
   <TableBody className="bg-transparent">
+    {data.map((row,index) => 
     <TableRow className="text-white">
-      <TableCell className="font-medium text-white">CB.F</TableCell>
-      <TableCell className="text-white">2024-02-16</TableCell>
-      <TableCell className="text-white">$82.160</TableCell>
-      <TableCell className="text-green-500">+0.2%</TableCell>
+      <TableCell className="font-medium text-white">{row.Symbol}</TableCell>
+      <TableCell className="text-white">{row.Data}</TableCell>
+      <TableCell className="text-white">{row.Zamkniecie}</TableCell>
+      <TableCell className="text-green-500">0.2%</TableCell>
     </TableRow>
-    <TableRow className="text-white">
-      <TableCell className="font-medium">CB.F</TableCell>
-      <TableCell>2024-02-16</TableCell>
-      <TableCell>$82.160</TableCell>
-      <TableCell className="text-green-500">+0.2%</TableCell>
-    </TableRow>
-    <TableRow className="text-white">
-      <TableCell className="font-medium">CB.F</TableCell>
-      <TableCell>2024-02-16</TableCell>
-      <TableCell>$82.160</TableCell>
-      <TableCell className="text-green-500">+0.2%</TableCell>
-    </TableRow>
-    <TableRow className="text-white">
-      <TableCell className="font-medium">CB.F</TableCell>
-      <TableCell>2024-02-16</TableCell>
-      <TableCell>$82.160</TableCell>
-      <TableCell className="text-green-500">+0.2%</TableCell>
-    </TableRow>
-    <TableRow className="text-white">
-      <TableCell className="font-medium">CB.F</TableCell>
-      <TableCell>2024-02-16</TableCell>
-      <TableCell>$82.160</TableCell>
-      <TableCell className="text-green-500">+0.2%</TableCell>
-    </TableRow>
-    <TableRow className="text-white">
-      <TableCell className="font-medium">CB.F</TableCell>
-      <TableCell>2024-02-16</TableCell>
-      <TableCell>$82.160</TableCell>
-      <TableCell className="text-green-500">+0.2%</TableCell>
-    </TableRow>
+    )}
   </TableBody>
 </Table>
 </div>
