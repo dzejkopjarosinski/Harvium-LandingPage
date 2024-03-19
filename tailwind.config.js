@@ -16,6 +16,9 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      roboto: ['Roboto'],
+    },
     extend: {
 
       boxShadow: {
@@ -30,7 +33,7 @@ module.exports = {
         'video-lg': '630px',
         'video-sm': '300px'
       },
-      backgroundImage: (theme) => ({
+      backgroundImage: () => ({
         'background-primary': `linear-gradient(to bottom, #020621, #0B1757, #020621)`,
       }),
       colors: {
