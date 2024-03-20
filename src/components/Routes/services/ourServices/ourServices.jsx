@@ -5,7 +5,7 @@ import Reveal from "@/components/animations/reveal/reveal.jsx";
 const OurServices = () => {
 
     return (
-        <div className='bg-background-primary font-roboto text-white font-bold'>
+        <div className='bg-background-dark-blue-gradient font-roboto'>
             <div className='flex flex-col justify-center items-center gap-16 px-5 py-14'>
                 <Reveal>
                     <h1 className='text-[40px]'>Nasze Usługi</h1>

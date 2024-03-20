@@ -6,7 +6,7 @@ import Reveal from "@/components/animations/reveal/reveal.jsx";
 const Service = ({ logo, serviceHeading, serviceDescription, serviceRoute }) => {
 
     return (
-        <div className='flex flex-col justify-center items-center max-w-[405px] text-center font-normal gap-6'>
+        <div className='flex flex-col justify-center items-center max-w-[405px] font-normal gap-6'>
             <img src={logo} className='size-12' alt='service logo'/>
             <Reveal>
                 <div className='text-2xl font-bold'>{serviceHeading}</div>
