@@ -9,17 +9,28 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      'nunito': ['"Nunito Sans"', 'sans-serif'],
+      'arvo': ['Arvo', 'serif'],
+    },
     container: {
       center: true,
       padding: "2rem",
       screens: {
+        'mb': '420px',
         "2xl": "1400px",
       },
     },
     extend: {
-
+      blur:{
+        '4xl': '200px',
+      },
       boxShadow: {
-        'golden': '2px 0px 20px 12px rgba(255, 215, 0, 0.2)'
+        'md': '0px 0px 10px .1px',
+        'lg': '0px 0px 20px .1px',
+        'xl': '0px 0px 50px .1px',
+        '3xl': '0px 0px 200px .1px',
+        'inner': 'inset 0 0 10px .1px'
       },
 
       width: {
