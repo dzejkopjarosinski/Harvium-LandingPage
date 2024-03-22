@@ -7,7 +7,9 @@ const Service = ({ logo, serviceHeading, serviceDescription, serviceRoute }) => 
 
     return (
         <div className='flex flex-col justify-center items-center max-w-[405px] font-normal gap-6'>
-            <img src={logo} className='size-12' alt='service logo'/>
+            <Reveal>
+                <img src={logo} className='size-12' alt='service logo'/>
+            </Reveal>
             <Reveal>
                 <div className='text-2xl font-bold'>{serviceHeading}</div>
             </Reveal>
