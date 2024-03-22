@@ -65,11 +65,11 @@ const ProductDetailPage = () => {
             <Breadcrumb>
               <BreadcrumbList className='text-white'>
                 <BreadcrumbItem>
-                  <BreadcrumbLink href='/'>Listing</BreadcrumbLink>
+                  <BreadcrumbLink>Listing</BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator />
                 <BreadcrumbItem>
-                  <BreadcrumbLink href='/components'>Category</BreadcrumbLink>
+                  <BreadcrumbLink>Category</BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator />
                 <BreadcrumbItem>
