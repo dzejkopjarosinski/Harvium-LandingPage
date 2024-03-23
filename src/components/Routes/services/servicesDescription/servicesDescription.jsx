@@ -39,7 +39,7 @@ const ServicesDescription = () => {
                         servicePhoto={serviceCardPhoto}
                     />
                 </section>
-                <section className='flex max-lg:flex-col items-center justify-center gap-36 py-36 relative'>
+                <section className='flex max-lg:flex-col lg:items-start items-center justify-center gap-36 py-36 relative'>
                     <div className='max-w-[576px] text-left space-y-7'>
                         <Reveal>
                             <h2 className='text-5xl font-bold'>Lorem ipsum dolor</h2>
