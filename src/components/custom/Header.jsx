@@ -13,7 +13,7 @@ export default function Header() {
         </div>
       </div>
       <div className='lg:pr-[100px] pl-[100px] md:pl-0'>
-        <img src="/src/assets/zboze.png" className='h-auto w-96'></img>
+        <img src="./src/assets/zboze.png" className='h-auto w-96'></img>
       </div>
       </div>
   
