@@ -35,7 +35,6 @@ module.exports = {
         'video-sm': '300px'
       },
       backgroundColor: {
-        black: '#090909',
         darkGrey: '#1c1c1c',
       },
       backgroundImage: () => ({
