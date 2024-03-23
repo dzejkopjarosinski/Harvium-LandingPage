@@ -3,7 +3,7 @@ import Reveal from "@/components/animations/reveal/reveal.jsx";
 
 const ServiceCard = ({ serviceHeader, serviceDescription, servicePhoto }) => {
     return (
-        <div className='w-[505px] h-fit bg-[#F4F6FA] text-black text-start rounded'>
+        <div className='w-[505px] h-fit bg-[#ffffff07] text-white text-start rounded-md hover:bg-[#ffffff10] transition duration-500'>
             <div className='flex flex-col justify-end gap-3 py-5 max-sm:px-8'>
                 <Reveal>
                     <h1 className='text-2xl font-bold sm:px-8'>{serviceHeader}</h1>
