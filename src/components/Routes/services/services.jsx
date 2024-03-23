@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <>
       <NavBar />
-        <div className='bg-darkGrey text-white text-center font-bold'>
+        <div className='bg-darkGrey font-inter text-white text-center font-bold'>
             <OurServices />
             <ServicesDescription />
         </div>
