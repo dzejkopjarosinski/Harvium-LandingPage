@@ -6,7 +6,7 @@ const OurServices = () => {
 
     return (
         <div className='bg-background-dark-blue-gradient font-roboto'>
-            <div className='flex flex-col justify-center items-center gap-16 px-5 py-14'>
+            <div className='flex flex-col justify-center items-center gap-32 px-5 py-24'>
                 <Reveal>
                     <h1 className='text-[40px]'>Nasze Usługi</h1>
                 </Reveal>
