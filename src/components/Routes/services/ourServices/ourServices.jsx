@@ -1,15 +1,12 @@
 import Service from "@/components/Routes/services/ourServices/service/service.jsx";
 import serviceIcon from "@/assets/services/serviceDefaultIcon.png"
-import Reveal from "@/components/animations/reveal/reveal.jsx";
 
 const OurServices = () => {
 
     return (
         <div className='bg-background-dark-blue-gradient font-roboto'>
             <div className='flex flex-col justify-center items-center gap-32 px-5 py-24'>
-                <Reveal>
-                    <h1 className='text-[40px]'>Nasze Usługi</h1>
-                </Reveal>
+                <h1 className='text-[40px]'>Nasze Usługi</h1>
                 <div className='flex flex-wrap justify-center mb-32 gap-28'>
                     <Service
                         logo={serviceIcon}
