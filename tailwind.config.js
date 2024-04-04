@@ -16,6 +16,10 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      roboto: ['Roboto'],
+      inter: ['Inter']
+    },
     extend: {
 
       boxShadow: {
@@ -30,8 +34,13 @@ module.exports = {
         'video-lg': '630px',
         'video-sm': '300px'
       },
-      backgroundImage: (theme) => ({
+      backgroundColor: {
+        darkGrey: '#1c1c1c',
+      },
+      backgroundImage: () => ({
         'background-primary': `linear-gradient(to bottom, #020621, #0B1757, #020621)`,
+        'background-dark-blue-gradient': `linear-gradient(180deg, rgba(2, 6, 35, 0.5) 5.6%, rgba(4, 12, 55, 0.5) 11.1%, rgba(11, 23, 87, 0.5) 22.6%, rgba(17, 30, 104, 0.5) 43.1%, rgba(16, 31, 108, 0.5) 61.6%, rgba(5, 15, 66, 0.5) 84.1%, rgba(2, 6, 33, 0.5) 95.1%);`,
+        'background-to-dark-gradient': `linear-gradient(180deg, rgb(3 6 28 / 50%) 5.6%, rgb(2 5 14 / 50%) 11.1%, rgb(0 0 0 / 50%) 22.6%, rgb(0 0 0) 43.1%, rgb(3 3 3) 61.6%, rgb(0 0 0) 84.1%, rgba(0, 0, 0, 1) 95.1%);`
       }),
       colors: {
         border: "hsl(var(--border))",

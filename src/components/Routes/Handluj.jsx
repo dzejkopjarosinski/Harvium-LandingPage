@@ -4,9 +4,9 @@ import Oferta from '../custom/Oferta'
 
 export default function ContactUs() {
   return (
-    <>
-    <NavBar />
-    <Oferta />
-    </>
+      <>
+        <NavBar />
+        <Oferta />
+      </>
   )
 }
