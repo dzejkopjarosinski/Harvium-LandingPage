@@ -20,6 +20,9 @@ export default function NavBar() {
         <a href="About" className="text-white hover:text-yellow-300">
           O nas
         </a>
+        <a href="Products" className="text-white hover:text-yellow-300">
+          Produkty
+        </a>
         <a href="Contact" className="text-white hover:text-yellow-300">
           Kontakt
         </a>

@@ -3,6 +3,8 @@ import HomePage from './components/Routes/HomePage';
 import About from './components/Routes/About';
 import Services from './components/Routes/services/services';
 import TermsOfUse from './components/Routes/TermsOfUse';
+import ProductPage from './components/Routes/ProductsPage';
+import ProductDetailPage from './components/Routes/ProductDetailPage';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
