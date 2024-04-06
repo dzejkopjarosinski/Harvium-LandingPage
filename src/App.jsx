@@ -11,12 +11,12 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path = "/Harvium-LandingPage/" element={<HomePage />}></Route>
-        <Route exact path = "/Harvium-LandingPage/Handluj" element={<ContactPage />}></Route>
-        <Route exact path = "/Harvium-LandingPage/Uslugi" element={<Uslugi />}></Route>
-        <Route exact path = "/Harvium-LandingPage/About" element={<About />}></Route>
-        <Route exact path = "/Harvium-LandingPage/Contact" element={<ContactPage />}></Route>
-        <Route exact path = "/Harvium-LandingPage/TermsOfUse" element={<TermsOfUse />}></Route>
+        <Route exact path = "/" element={<HomePage />}></Route>
+        <Route exact path = "Handluj" element={<ContactPage />}></Route>
+        <Route exact path = "Uslugi" element={<Uslugi />}></Route>
+        <Route exact path = "About" element={<About />}></Route>
+        <Route exact path = "Contact" element={<ContactPage />}></Route>
+        <Route exact path = "TermsOfUse" element={<TermsOfUse />}></Route>
       </Routes>
     </Router>
   )
