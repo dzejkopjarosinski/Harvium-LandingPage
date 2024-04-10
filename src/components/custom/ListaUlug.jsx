@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import ikonaplatforma from '/src/assets/Ikonaplatforma.png';
 
 export default function ListaUlug() {
   return (
@@ -9,7 +10,7 @@ export default function ListaUlug() {
         </div>
         <div className='flex flex-row justify-center gap-16 mb-10 mx-5 flex-wrap'>
           <div className='flex flex-col text-white text-center items-center w-80'>
-            <img src='src/assets/Ikonaplatforma.png' className='w-[75px] h-[75px]'></img>
+            <img src={ikonaplatforma} className='w-[75px] h-[75px]'></img>
             <h2 className='text-xl font-semibold mt-1 mb-1 w-64 h-14'>Platforma handlowa</h2>
             <p className='text-lg font-light'>Budujemy najbardziej zaawansowaną platformę do handlu produktami spożywczymi i przemysłowymi na świecie</p>
           </div>
