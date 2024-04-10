@@ -1,5 +1,10 @@
 import React from 'react';
 import ikonaplatforma from '/src/assets/Ikonaplatforma.png';
+import ikonarynek from '/src/assets/Ikonarynek.png';
+import ikonadane from '/src/assets/Ikonadane.png';
+import ikonaceny from '/src/assets/Ikonaceny.png';
+import ikonaszybka from '/src/assets/Ikonaszybka.png';
+
 
 export default function ListaUlug() {
   return (
@@ -15,22 +20,22 @@ export default function ListaUlug() {
             <p className='text-lg font-light'>Budujemy najbardziej zaawansowaną platformę do handlu produktami spożywczymi i przemysłowymi na świecie</p>
           </div>
           <div className='flex flex-col text-white text-center items-center w-80'>
-            <img src='src/assets/Ikonarynek.png' className='w-[75px] h-[75px]'></img>
+            <img src={ikonarynek} className='w-[75px] h-[75px]'></img>
             <h2 className='text-xl font-semibold mt-1 mb-1 w-64 h-14'>Tworzymy rynek</h2>
             <p className='text-lg font-light'>Łączymy dostawców z potencjalnymi rynkami zbytu</p>
           </div>
           <div className='flex flex-col text-white text-center items-center w-80'>
-            <img src='src/assets/Ikonadane.png' className='w-[75px] h-[75px]'></img>
+            <img src={ikonadane} className='w-[75px] h-[75px]'></img>
             <h2 className='text-xl font-semibold mt-1 mb-1 w-64 h-14'>Przetwarzamy dane</h2>
             <p className='text-lg font-light'>Dzięki nam szybciej zauważysz nadchodzące trendy oraz uzyskasz dostęp do rzetelnych informacji</p>
           </div>
           <div className='flex flex-col text-white text-center items-center w-80'>
-            <img src='src/assets/Ikonaceny.png' className='w-[75px] h-[75px]'></img>
+            <img src={ikonaceny} className='w-[75px] h-[75px]'></img>
             <h2 className='text-xl font-semibold mt-1 mb-1 w-64 h-14'>Monitorujemy ceny</h2>
             <p className='text-lg font-light'>Tworzymy monitoring cen produktów rolnych i przemysłowych na rynku europejskim</p>
           </div>
           <div className='flex flex-col text-white text-center items-center w-80'>
-            <img src='src/assets/Ikonaszybka.png' className='w-[75px] h-[75px]'></img>
+            <img src={ikonaszybka} className='w-[75px] h-[75px]'></img>
             <h2 className='text-xl font-semibold mt-1 mb-1 w-64 h-14'>Szybka i profesjonalna obsługa klienta</h2>
             <p className='text-lg font-light'>Dział Obsługi Klienta jest dostępny 24/7. Możesz się z nami skontaktować telefonicznie oraz mailowo</p>
           </div>

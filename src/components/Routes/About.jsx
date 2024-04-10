@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../custom/NavBar'
 import Footer from '../custom/Footer'
+import kimjestesmy from '/src/assets/kimjestesmy.png'
 
 export default function About() {
   return (
@@ -27,7 +28,7 @@ export default function About() {
           </div>
         </div>
         <div className='flex justify-center items-center'>
-            <img src='src/assets/kimjestesmy.png' className='scale-75'></img>
+            <img src={kimjestesmy} className='scale-75'></img>
         </div>  
     </div>
     <Footer />
